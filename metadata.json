@@ -1,0 +1,6 @@
+{
+  "name": "Department of Physics | ADP College, Nagaon",
+  "description": "Official academic portal and student showcase for the Department of Physics at Anandaram Dhekial Phookan College, Nagaon, Assam. Featuring department information, laboratories, faculty, FYUGP syllabus, and the annual wall magazine 'Surar Anuranon'.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

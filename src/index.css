@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --night: #062b2e;
+    --deep: #0a4146;
+    --photon: #2de2d0;
+    --amber: #ffb347;
+    --paper: #f4f7f6;
+    --card: #ffffff;
+    --tx: #17302f;
+    --mut: #58706f;
+    --line: #d6e2e0;
+    --r: 14px;
+
+    /* Magazine theme */
+    --mag-ink: #1b1734;
+    --mag-paper: #fcf6ea;
+    --mag-paper-soft: #f5ecda;
+    --mag-card: #fffcf5;
+    --mag-saffron: #e68a1d;
+    --mag-saffron-glow: #f7b750;
+    --mag-red: #c23923;
+    --mag-red-deep: #911f12;
+    --mag-indigo: #201e52;
+    --mag-indigo-dark: #141238;
+    --mag-line: #dfcca2;
+    --mag-line-strong: #cbaf79;
+    --mag-gold-tint: #fdf3dc;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 76px;
+  }
+
+  body {
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    color: var(--tx);
+    background-color: var(--paper);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Focus ring accessibility */
+  :focus-visible {
+    outline: 3px solid var(--amber);
+    outline-offset: 3px;
+  }
+}
+
+/* Custom fonts */
+.font-bricolage {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+}
+.font-ibm {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+.font-bengali-serif {
+  font-family: "Noto Serif Bengali", Georgia, serif;
+}
+.font-bengali-sans {
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+.font-fraunces {
+  font-family: "Fraunces", Georgia, serif;
+}
+.font-cinzel {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+/* Animations */
+@keyframes ripple {
+  0% {
+    transform: scale(0.02);
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: ripple 7s linear infinite;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ripple {
+    animation: none !important;
+    opacity: 0.35 !important;
+    transform: scale(0.6) !important;
+  }
+  html {
+    scroll-behavior: auto !important;
+  }
+}

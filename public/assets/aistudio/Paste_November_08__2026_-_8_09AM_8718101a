@@ -1,0 +1,1137 @@
+<!-- Department of Physics | ADP College, Nagaon -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Department of Physics | ADP College, Nagaon</title>
+<meta name="description" content="Department of Physics, Anandaram Dhekial Phookan College, Nagaon, Assam. B.Sc. Physics programme affiliated to Gauhati University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--night:#062b2e;--deep:#0a4146;--photon:#2de2d0;--amber:#ffb347;--paper:#f4f7f6;--card:#fff;--tx:#17302f;--mut:#58706f;--line:#d6e2e0;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font:16px/1.65 "IBM Plex Sans",system-ui,sans-serif;color:var(--tx);background:var(--paper)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.w{max-width:1140px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;color:var(--night)}
+h2{font-size:clamp(1.7rem,3.5vw,2.4rem);margin-bottom:12px}
+h3{font-size:1.2rem;margin-bottom:6px}
+section{padding:72px 0}
+.lead{max-width:62ch;color:var(--mut);margin-bottom:34px}
+/* navigation */
+header{background:var(--night);position:sticky;top:0;z-index:50}
+header .w{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.05rem;line-height:1.1}
+.logo small{display:block;font:400 .78rem "IBM Plex Sans",sans-serif;color:#9fc7c3}
+.logo svg{flex:none}
+nav ul{display:flex;list-style:none;gap:4px}
+nav a{display:block;padding:8px 12px;color:#d8efec;font-weight:500;font-size:.95rem;border-radius:8px}
+nav a:hover{background:var(--deep);color:#fff}
+nav a.cta{background:var(--amber);color:#2a1a00;font-weight:600}
+nav a.cta:hover{background:#ffc470}
+.burger{display:none;background:none;border:1px solid #2b6a6a;color:#fff;border-radius:8px;padding:7px 12px;font:600 .95rem inherit;cursor:pointer}
+/* hero: two-source interference ripples */
+.hero{background:radial-gradient(120% 120% at 70% 40%,var(--deep),var(--night) 70%);color:#fff;position:relative;overflow:hidden;padding:0}
+.hero .w{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;min-height:540px}
+.hero h1{color:#fff;font-size:clamp(2.3rem,5.4vw,4rem);margin-bottom:18px}
+.hero p{color:#c3e3df;max-width:48ch;margin-bottom:28px;font-size:1.08rem}
+.btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;margin-right:10px;margin-bottom:10px}
+.btn.a{background:var(--amber);color:#2a1a00}
+.btn.o{border:2px solid var(--photon);color:var(--photon)}
+.btn:hover{filter:brightness(1.1)}
+.waves{width:100%;height:auto;max-height:520px}
+.waves .ring{fill:none;stroke:var(--photon);stroke-width:1.6;transform-box:fill-box;transform-origin:center;animation:ripple 7s linear infinite;opacity:0}
+.waves .r2{stroke:var(--amber)}
+@keyframes ripple{0%{transform:scale(.02);opacity:.9}100%{transform:scale(1);opacity:0}}
+/* about */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.ph{aspect-ratio:4/3;border-radius:var(--r);overflow:hidden;background:linear-gradient(135deg,var(--deep),var(--photon));position:relative;box-shadow:0 10px 30px rgba(6,43,46,0.12)}
+.ph img{width:100%;height:100%;object-fit:cover}
+.facts{list-style:none;margin-top:18px;border-left:4px solid var(--photon);padding-left:16px}
+.facts li{padding:4px 0}
+/* labs */
+.labs{background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.card p{color:var(--mut);font-size:.95rem}
+.card.dark{background:var(--night);border-color:var(--night)}
+.card.dark h3{color:#fff}.card.dark p{color:#b5d6d2}
+/* faculty */
+.fac{text-align:center}
+.fac .av{width:132px;height:132px;border-radius:50%;margin:0 auto 14px;overflow:hidden;background:linear-gradient(135deg,var(--photon),var(--deep));box-shadow:0 6px 16px rgba(6,43,46,0.15)}
+.fac .av img{width:100%;height:100%;object-fit:cover}
+/* notices */
+.notes{background:var(--night);color:#d8efec}
+.notes h2{color:#fff}
+.nl{list-style:none;max-width:760px}
+.nl li{display:flex;gap:18px;padding:16px 0;border-bottom:1px solid #1d5557}
+.nl time{flex:none;width:92px;color:var(--amber);font-weight:600}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.gal figure{border-radius:var(--r);overflow:hidden;background:linear-gradient(135deg,var(--deep),var(--photon));box-shadow:0 6px 20px rgba(6,43,46,0.08);display:flex;flex-direction:column}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.gal figcaption{background:#fff;padding:12px 16px;font-size:.9rem;color:var(--mut);font-weight:500}
+/* contact */
+form{display:grid;gap:12px}
+input,textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}
+textarea{min-height:120px;resize:vertical}
+button.send{justify-self:start;background:var(--night);color:#fff;border:0;border-radius:10px;padding:12px 24px;font:600 1rem inherit;cursor:pointer}
+button.send:hover{background:var(--deep)}
+footer{background:var(--night);color:#9fc7c3;padding:26px 0;font-size:.9rem}
+footer .w{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+@media(max-width:860px){
+ .burger{display:block}
+ nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--night);padding:8px 20px 16px}
+ nav.open{display:block}
+ nav ul{flex-direction:column}
+ .hero .w,.split{grid-template-columns:1fr}
+ .hero .w{padding-top:40px;padding-bottom:20px}
+ section{padding:52px 0}
+}
+@media(prefers-reduced-motion:reduce){.waves .ring{animation:none;opacity:.35;transform:scale(.6)}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+ <div class="w">
+  <a href="#top" class="logo" aria-label="Department of Physics, ADP College">
+   <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="3.5" fill="#ffb347"/><ellipse cx="20" cy="20" rx="17" ry="7" fill="none" stroke="#2de2d0" stroke-width="1.6"/><ellipse cx="20" cy="20" rx="17" ry="7" fill="none" stroke="#2de2d0" stroke-width="1.6" transform="rotate(60 20 20)"/><ellipse cx="20" cy="20" rx="17" ry="7" fill="none" stroke="#2de2d0" stroke-width="1.6" transform="rotate(120 20 20)"/></svg>
+   <span>Department of Physics<small>ADP College, Nagaon</small></span>
+  </a>
+  <button class="burger" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" aria-label="Main">
+   <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#labs">Laboratories</a></li>
+    <li><a href="#faculty">Faculty</a></li>
+    <li><a href="#notices">Notices</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact" class="cta">Contact</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+<main id="top">
+<section class="hero" aria-label="Welcome">
+ <div class="w">
+  <div>
+   <h1>Where waves meet, patterns appear.</h1>
+   <p>The Department of Physics at ADP College teaches physics through experiments, careful measurement and clear reasoning, for students who want to understand how nature works.</p>
+   <a class="btn a" href="#about">Explore the department</a>
+   <a class="btn o" href="#contact">Get in touch</a>
+  </div>
+  <svg class="waves" viewBox="0 0 400 400" role="img" aria-label="Animated ripples from two sources overlapping to form an interference pattern">
+   <g>
+    <circle class="ring" cx="140" cy="200" r="190" style="animation-delay:0s"/>
+    <circle class="ring" cx="140" cy="200" r="190" style="animation-delay:-1.75s"/>
+    <circle class="ring" cx="140" cy="200" r="190" style="animation-delay:-3.5s"/>
+    <circle class="ring" cx="140" cy="200" r="190" style="animation-delay:-5.25s"/>
+    <circle class="ring r2" cx="260" cy="200" r="190" style="animation-delay:0s"/>
+    <circle class="ring r2" cx="260" cy="200" r="190" style="animation-delay:-1.75s"/>
+    <circle class="ring r2" cx="260" cy="200" r="190" style="animation-delay:-3.5s"/>
+    <circle class="ring r2" cx="260" cy="200" r="190" style="animation-delay:-5.25s"/>
+    <circle cx="140" cy="200" r="6" fill="#2de2d0"/>
+    <circle cx="260" cy="200" r="6" fill="#ffb347"/>
+   </g>
+  </svg>
+ </div>
+</section>
+<section id="about">
+ <div class="w split">
+  <div>
+   <h2>About the department</h2>
+   <p class="lead" style="margin-bottom:0">Established to foster scientific curiosity and rigorous empirical inquiry, the Department of Physics at Anandaram Dhekial Phookan College provides comprehensive undergraduate education blending classical mechanics, quantum theory, electrodynamics, and hands-on laboratory experimentation.</p>
+   <ul class="facts">
+    <li>Programme: B.Sc. Physics (Honours and General)</li>
+    <li>Affiliated to Gauhati University</li>
+    <li>Location: Haiborgaon, Nagaon, Assam</li>
+   </ul>
+  </div>
+  <div class="ph"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDImVdjZALq-SbEuFx85juSn2aNvYheEUtyvtqZd4IsmUR996ti5rjiMz2R0MWQDpF6TH1USawdsAG6dTZCLkYidnjYYmvKLuNh8xsEqHsVJJ-UeQgmfTp3rBi9XvzwhWVRXwXMJaWid2bNd4uFr86UE6KnxSw5jKekqoHKsDIQlxE9bcZnuIgpk2T3llJaFwZY5-kkZ7QYwnyGyPU6uLxv2AT_bTERbuhRS4YOPNbfJ6geWvv9NymlIQ" alt="Department corridor and verandah at ADP College" loading="lazy"></div>
+ </div>
+</section>
+<section id="labs" class="labs">
+ <div class="w">
+  <h2>Laboratories and experiments</h2>
+  <p class="lead">Students learn by measuring. Equipped with apparatus for hands-on experimentation across classical and modern physics.</p>
+  <div class="grid">
+   <div class="card"><h3>Heat and thermodynamics</h3><p>Thermal conductivity by Searle's method, Lee's and Chorlton's disc, and specific heat experiments.</p></div>
+   <div class="card"><h3>Electricity and magnetism</h3><p>B-H curve and hysteresis loss, bridge circuits, and measurement with galvanometers.</p></div>
+   <div class="card"><h3>Solid state</h3><p>Hall effect in semiconductors, four-probe resistivity and band gap measurement.</p></div>
+   <div class="card dark"><h3>Optics</h3><p>Interference, diffraction, polarisation and spectrometer work.</p></div>
+   <div class="card dark"><h3>Electronics</h3><p>Diodes, transistors, amplifiers, logic gates and the oscilloscope.</p></div>
+   <div class="card dark"><h3>Computational physics</h3><p>Simple programs for data analysis, plotting and numerical solutions.</p></div>
+  </div>
+ </div>
+</section>
+<section id="faculty">
+ <div class="w">
+  <h2>Faculty</h2>
+  <p class="lead">The teachers who guide students in theory classes and in the laboratory.</p>
+  <div class="grid">
+   <div class="card fac"><div class="av"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVKLwVFzlS1bAsYRiZlmV9mbX340GM8J3tjxNoBIx4C258tchAvHy_gvGiRwL8E-qAtPc0CGO-WkIQCyUoDbQzqPpB8lqJMRjNuFscU9cAwIF_MP9nrnyNsuWRPJnjugY3uyfYV0lwbmR29Jry_ZLid8_ldtuVmnF8CRvjt8LOhI1jMU-GsB5ypILgDjcUwnjFPkh0R_n7aZqnnrAN47vLuGae84qeg2SsstdmXtCDcviR9YAR3meYkQ" alt="Dr. Bhaskar J. Saikia" loading="lazy"></div><h3>Dr. Bhaskar J. Saikia</h3><p>Assistant Professor &amp; Head of Department<br>M.Sc., Ph.D.</p></div>
+   <div class="card fac"><div class="av"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPQYER68u_aFRlbRgCYpwwJK9c8bCGz5a9hYeu51Unf-hU7WtEfDnMtcBzm5SFRS9qNios0gIh0g2_CvQxwkOunCg0EoDgdGeUuNw_8OU46doJmx1cJHrlCCU0mveFzywFKAYBK9vAfMiDZLrxCigd_Ui4-SDf6VvQMyoqEgifPzSeXHjMwoIYizp2lwN6M5BltOGVw6gvvaf7W_eS78jiENiXF-HiRVybj7POTD0-mQ8PK5uZaplutg" alt="Dr. Lakshmi K. Singh" loading="lazy"></div><h3>Dr. Lakshmi K. Singh</h3><p>Assistant Professor<br>M.Sc., Ph.D.</p></div>
+   <div class="card fac"><div class="av"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAee7ExGmpvaijBH4pIzwQbFj9njv5g7jfahM0rw5HD1o3aPDi95ZMpSncxOqLDIhS8pwr6Vxc1JtNKzDDDXXsZ7yLA-tIUgPkZNIV2O2qreH9rAYhO3wTv2tVqMEZnp7v_zOEBTHStfXUzLrQNeCJr0pvmUFhx0ELJu05W5m0bG3NtIeQ_BQrkYDb4RtMbBB4X_YafmsjW6Rakj_J67s-G7op4_A5AtrXH2j-JBA6gseBNoXVXKoD2_g" alt="Dr. Dharitree Dutta Singh" loading="lazy"></div><h3>Dr. Dharitree Dutta Singh</h3><p>Assistant Professor<br>M.Sc., Ph.D.</p></div>
+   <div class="card fac"><div class="av"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0a0e1RzhShqSC0gUq14EMD23gOnmhPL9KJvwr1HJjYV48wuq-hl-3GbLquBBc_eiE4CdlT5MirShzvZiFsuPfRRVsUXXWEfU8G4hnOMfrcWRnToR8JxcM-tjlClPU_-XYxTrVpCzMwRKq-4yANFjOmrd1gFCe80xoTQiG_yDDMQK_o_1PYGN__3yUuGFNnvbGDYl_uTB7CtWeZfkHD-6Bb9_KQudxCnVJLQ-FmcAC6aQt0LsxphGLng" alt="Dr. Hrishikesh Talukdar" loading="lazy"></div><h3>Dr. Hrishikesh Talukdar</h3><p>Assistant Professor<br>M.Sc., Ph.D.</p></div>
+  </div>
+ </div>
+</section>
+<section id="notices" class="notes">
+ <div class="w">
+  <h2>Notices and events</h2>
+  <ul class="nl">
+   <li><time datetime="2026-11-15">15 Nov</time><span>Practical examination schedule for B.Sc. Physics semester evaluations.</span></li>
+   <li><time datetime="2026-12-01">1 Dec</time><span>Department seminar on quantum mechanics and experimental methods.</span></li>
+   <li><time datetime="2026-12-20">20 Dec</time><span>Annual science exhibition, model presentation, and open laboratory day.</span></li>
+  </ul>
+ </div>
+</section>
+<section id="gallery">
+ <div class="w">
+  <h2>Gallery</h2>
+  <p class="lead">Photos of labs, experiments, student presentations, and department events.</p>
+  <div class="gal">
+   <figure><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsaWPjQLTIlrGWK6dGGb58B2S5g2QcSTTlz4fZOwXDsec8xAcAOyN_ItQMMgzv2Bx6HULeTmOViptL1yhAFZVqbqUWimD5qMttjk27pWduA11yDC3SsCw6MbNaEbL8LtkuUlcUePRif5usFa00zULmdVbYYqkjxI2Y0qhY58EXnbn1T9B4VjTDfOHLz5_TeEV3o_SqdYis8w64v1qZ2z5yvsP-dr2cAvu8RnHLt142crLs1qG2rU8PWw" alt="Departmental event and laboratory gathering with students and faculty" loading="lazy"><figcaption>Department Gathering &amp; Lab Event</figcaption></figure>
+   <figure><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhIVs-6T7R_qLIykwqFZW5_6GcENkvAVEQeXXLUWSRB47guZXQ6UwH0iLzsaF4rFo2Dxq5AJWfBSsri4HsrzJl2SDQiewPgOKiRTnMipl60TOvbBZUoCt1I3lmm_rSwIl0x2y3GASTB8XwWsMdX7NOddbECY0z6XJErY68tiHZ2MnTaeH9sSMXHYTGRY-tJUVbfj0BsEBRt--uR0Mhb8cIl4kw8Y8y-enzHCowIPs6MwTMeNnXgDpXLQ" alt="Classroom lecture and physics blackboard demonstration" loading="lazy"><figcaption>Theory Class &amp; Atomic Physics Lecture</figcaption></figure>
+   <figure><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLtKBjzH4Eku4mbdyaDE0dzanPoBOJNUZrxOPMv_2fxgeGyb7lV5tHEOXV1VysLcv2EEiQQLeztNLt-jukG9RufyrKkKQiOajSxEpEcHqlcTII-P_XiaT_bOFaEVSWVrg2hrrpgzrapHanWFrmRxhuoSGJ-yno86hi95z5NJGNQRIRV-qE1EbzPYf6LDvxNK07Ly6AtBGhUlDhl7G6L5NQw5EUr0fx9Y_jM_UTYK1JCpXicIhlLFIg9w" alt="Student seminar presentation using smart board" loading="lazy"><figcaption>Student Seminar Presentation</figcaption></figure>
+   <figure><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhCagcOpQ6zhtSl0nOssVbfVhPK_cUKA5bk-iHMYcRlJoYAYc54yRs3Gsw_NE9G5znhhA379mP3LOPJRPnKBzN3BtSYI2xSh6Y7l7uYaANQPN-xx7GxDX0HSg1UiRBMnjCiSBjS30LPf0T_9YEXmNtpA9hZIqWYNNcREBmi-1sb1QolSfDJsEBIb8kctX1IBjNg1g9q8KMrhtkhIcJ_ZiRSG1XKF2txQmurxkK8ACW1ghb_OYqc-3l4A" alt="Departmental wall magazine exhibit - Surar Anuranon" loading="lazy"><figcaption>Department Wall Magazine Exhibit</figcaption></figure>
+  </div>
+ </div>
+</section>
+<section id="contact" class="labs">
+ <div class="w split">
+  <div>
+   <h2>Contact the department</h2>
+   <p class="lead">Anandaram Dhekial Phookan College, Haiborgaon, Nagaon, Assam - 782002.<br>Affiliated to Gauhati University.<br>Email: physics@adpcollege.ac.in<br>Phone: +91 3672 222123</p>
+  </div>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+   <input name="name" placeholder="Your name" aria-label="Your name" required>
+   <input name="email" type="email" placeholder="Your email" aria-label="Your email" required>
+   <textarea name="message" placeholder="Your message" aria-label="Your message" required></textarea>
+   <button class="send" type="submit">Send message</button>
+  </form>
+ </div>
+</section>
+</main>
+<footer>
+ <div class="w"><span>&copy; <span id="yr">2026</span> Department of Physics, ADP College, Nagaon</span><span>Affiliated to Gauhati University</span></div>
+</footer>
+<script>
+const b=document.querySelector('.burger'),n=document.getElementById('site-nav');
+b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false')}));
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
+
+<!-- Syllabus | Department of Physics, ADP College, Nagaon -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Syllabus | Department of Physics, ADP College, Nagaon</title>
+<meta name="description" content="B.Sc. Physics syllabus (FYUGP, Gauhati University) for semesters 1 to 6, Department of Physics, ADP College, Nagaon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--night:#062b2e;--deep:#0a4146;--photon:#2de2d0;--amber:#ffb347;--paper:#f4f7f6;--card:#fff;--tx:#17302f;--mut:#58706f;--line:#d6e2e0;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font:16px/1.65 "IBM Plex Sans",system-ui,sans-serif;color:var(--tx);background:var(--paper)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.w{max-width:1140px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;color:var(--night)}
+h1{font-size:clamp(2.2rem,4.5vw,3.2rem);margin-bottom:12px}
+h2{font-size:clamp(1.7rem,3.5vw,2.4rem);margin-bottom:12px}
+h3{font-size:1.2rem;margin-bottom:6px}
+section{padding:56px 0 72px}
+.lead{max-width:70ch;color:var(--mut);margin-bottom:34px;font-size:1.05rem}
+
+/* navigation */
+header{background:var(--night);position:sticky;top:0;z-index:50}
+header .w{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.05rem;line-height:1.1}
+.logo small{display:block;font:400 .78rem "IBM Plex Sans",sans-serif;color:#9fc7c3}
+.logo svg{flex:none}
+nav ul{display:flex;list-style:none;gap:4px}
+nav a{display:block;padding:8px 12px;color:#d8efec;font-weight:500;font-size:.95rem;border-radius:8px;transition:background 0.2s,color 0.2s}
+nav a:hover{background:var(--deep);color:#fff}
+nav a.cta{background:var(--amber);color:#2a1a00;font-weight:600}
+nav a.cta:hover{background:#ffc470}
+.burger{display:none;background:none;border:1px solid #2b6a6a;color:#fff;border-radius:8px;padding:7px 12px;font:600 .95rem inherit;cursor:pointer}
+
+/* page header banner */
+.page-header{background:radial-gradient(120% 120% at 80% 20%,var(--deep),var(--night) 80%);color:#fff;padding:52px 0 44px;position:relative;border-bottom:1px solid #164e52}
+.page-header h1{color:#fff}
+.page-header p{color:#c3e3df;max-width:68ch;font-size:1.1rem;margin-bottom:20px}
+.badge-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.badge{background:rgba(45,226,208,0.12);border:1px solid rgba(45,226,208,0.3);color:var(--photon);font-size:0.85rem;font-weight:600;padding:5px 12px;border-radius:999px}
+.badge.amber{background:rgba(255,179,71,0.15);border-color:rgba(255,179,71,0.4);color:var(--amber)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:10px;font-weight:600;margin-right:10px;margin-bottom:10px;transition:filter .15s}
+.btn.a{background:var(--amber);color:#2a1a00}
+.btn.o{border:2px solid var(--photon);color:var(--photon)}
+.btn:hover{filter:brightness(1.1)}
+
+/* syllabus details */
+.sems{margin-top:16px}
+.sem{background:#fff;border:1px solid var(--line);border-radius:var(--r);margin-bottom:14px;overflow:hidden;box-shadow:0 2px 6px rgba(6,43,46,0.03);transition:box-shadow .2s}
+.sem:hover{box-shadow:0 4px 12px rgba(6,43,46,0.06)}
+.sem summary{cursor:pointer;padding:18px 24px;font:800 1.2rem "Bricolage Grotesque",sans-serif;color:var(--night);list-style:none;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:background .2s,color .2s}
+.sem summary::-webkit-details-marker{display:none}
+.sem summary::after{content:"+";font-size:1.6rem;line-height:1;color:var(--deep);transition:transform .25s ease,color .2s}
+.sem[open] summary::after{transform:rotate(45deg);color:var(--amber)}
+.sem[open] summary{border-bottom:1px solid var(--line);background:var(--night);color:#fff}
+.courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;padding:24px;background:#fafcfb}
+.course{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--photon);border-radius:10px;padding:20px 22px;display:flex;flex-direction:column}
+.course h3{font-size:1.1rem;margin-bottom:4px;color:var(--night)}
+.course .meta{display:inline-block;color:var(--deep);font-weight:600;font-size:.85rem;margin-bottom:14px;background:#e2f2ef;padding:3px 10px;border-radius:6px;align-self:flex-start}
+.course ul{padding-left:18px;font-size:.92rem;color:var(--tx)}
+.course li{padding:3px 0}
+
+/* overview notes */
+.syllabus-info{margin-top:40px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.info-card h4{font-family:"Bricolage Grotesque",sans-serif;font-size:1.05rem;color:var(--night);margin-bottom:6px}
+.info-card p{font-size:.92rem;color:var(--mut)}
+
+footer{background:var(--night);color:#9fc7c3;padding:26px 0;font-size:.9rem}
+footer .w{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+
+@media(max-width:860px){
+ .burger{display:block}
+ nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--night);padding:8px 20px 16px;border-bottom:1px solid #164e52}
+ nav.open{display:block}
+ nav ul{flex-direction:column}
+ section{padding:44px 0}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="w">
+  <a href="index.html" class="logo" aria-label="Department of Physics, ADP College">
+   <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="3.5" fill="#ffb347"/><ellipse cx="20" cy="20" rx="17" ry="7" fill="none" stroke="#2de2d0" stroke-width="1.6"/><ellipse cx="20" cy="20" rx="17" ry="7" fill="none" stroke="#2de2d0" stroke-width="1.6" transform="rotate(60 20 20)"/><ellipse cx="20" cy="20" rx="17" ry="7" fill="none" stroke="#2de2d0" stroke-width="1.6" transform="rotate(120 20 20)"/></svg>
+   <span>Department of Physics<small>ADP College, Nagaon</small></span>
+  </a>
+  <button class="burger" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" aria-label="Main">
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="#syllabus" aria-current="page" style="background:var(--deep);color:#fff">Syllabus</a></li>
+    <li><a href="index.html#labs">Laboratories</a></li>
+    <li><a href="index.html#faculty">Faculty</a></li>
+    <li><a href="index.html#notices">Notices</a></li>
+    <li><a href="index.html#gallery">Gallery</a></li>
+    <li><a href="index.html#contact" class="cta">Contact</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<div class="page-header">
+ <div class="w">
+  <h1>Undergraduate Syllabus</h1>
+  <p>B.Sc. Physics curriculum structured under the Four Year Undergraduate Programme (FYUGP) of Gauhati University, effective from academic session 2023–24.</p>
+  <div class="badge-row">
+   <span class="badge">FYUGP Gauhati University</span>
+   <span class="badge amber">Semester 1 to Semester 6</span>
+   <span class="badge">Theory &amp; Practical Credits</span>
+  </div>
+ </div>
+</div>
+
+<main id="top">
+<section id="syllabus">
+ <div class="w">
+  <h2>Course Structure &amp; Papers</h2>
+  <p class="lead">Expand each semester below to view core papers, theory/practical credit weightage, and detailed syllabus topics across all six semesters.</p>
+  
+  <div class="sems">
+   <details class="sem" open>
+    <summary>Semester 1</summary>
+    <div class="courses">
+     <article class="course">
+      <h3>Mathematical Physics and Mechanics</h3>
+      <p class="meta">PHY101 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Vector calculus</li>
+       <li>Curvilinear coordinates</li>
+       <li>Dirac delta function</li>
+       <li>Reference frames</li>
+       <li>Gravitation and central force motion</li>
+       <li>Conservation laws</li>
+       <li>Dynamics of rigid bodies</li>
+       <li>Work and energy</li>
+       <li>Oscillations</li>
+       <li>Properties of matter</li>
+      </ul>
+     </article>
+    </div>
+   </details>
+
+   <details class="sem">
+    <summary>Semester 2</summary>
+    <div class="courses">
+     <article class="course">
+      <h3>Mathematical Physics and Electricity and Magnetism</h3>
+      <p class="meta">PHY151 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Differential equations</li>
+       <li>Matrices</li>
+       <li>Electric field and electric potential</li>
+       <li>Dielectric properties of matter</li>
+       <li>Magnetic field</li>
+       <li>Magnetic properties of matter</li>
+       <li>Electrical circuits</li>
+      </ul>
+     </article>
+    </div>
+   </details>
+
+   <details class="sem">
+    <summary>Semester 3</summary>
+    <div class="courses">
+     <article class="course">
+      <h3>Waves and Optics</h3>
+      <p class="meta">PHY201 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Superposition of harmonic oscillations</li>
+       <li>Wave motion</li>
+       <li>Velocity of waves</li>
+       <li>Superposition of two harmonic waves</li>
+       <li>Wave optics</li>
+       <li>Interference</li>
+       <li>Diffraction</li>
+       <li>Polarization</li>
+      </ul>
+     </article>
+    </div>
+   </details>
+
+   <details class="sem">
+    <summary>Semester 4</summary>
+    <div class="courses">
+     <article class="course">
+      <h3>Classical Mechanics</h3>
+      <p class="meta">PHY251 &middot; Theory 4 credits</p>
+      <ul>
+       <li>Lagrangian approach</li>
+       <li>Hamiltonian approach</li>
+       <li>Small oscillations</li>
+       <li>Special theory of relativity</li>
+       <li>Fluid dynamics</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Quantum Mechanics I</h3>
+      <p class="meta">PHY252 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Origin of quantum theory</li>
+       <li>Dynamical variables as operators and uncertainty principle</li>
+       <li>Matter wave and wave-particle duality</li>
+       <li>Schrödinger equation and its applications</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Analog Electronics</h3>
+      <p class="meta">PHY253 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Semiconductor diodes</li>
+       <li>Two-terminal devices and their applications</li>
+       <li>Bipolar junction transistors</li>
+       <li>Amplifiers</li>
+       <li>Coupled amplifier</li>
+       <li>Feedback in amplifiers</li>
+       <li>Sinusoidal oscillators</li>
+       <li>Operational amplifiers</li>
+       <li>Applications of op-amps</li>
+       <li>Introduction to CRO</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Mathematical Physics</h3>
+      <p class="meta">PHY254 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Partial differential equations</li>
+       <li>Fourier series</li>
+       <li>Complex analysis</li>
+       <li>Tensor algebra</li>
+       <li>Introduction to probability</li>
+      </ul>
+     </article>
+    </div>
+   </details>
+
+   <details class="sem">
+    <summary>Semester 5</summary>
+    <div class="courses">
+     <article class="course">
+      <h3>Atomic and Molecular Physics</h3>
+      <p class="meta">PHY301 &middot; Theory 4 credits</p>
+      <ul>
+       <li>Atom models</li>
+       <li>X-rays</li>
+       <li>Multi-electron atoms</li>
+       <li>Molecular spectra</li>
+       <li>Raman effect</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Condensed Matter Physics</h3>
+      <p class="meta">PHY302 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Crystal structure and bonding in solids</li>
+       <li>Elementary lattice dynamics</li>
+       <li>Dielectric and ferroelectric properties</li>
+       <li>Transport properties of materials</li>
+       <li>Nanophysics and soft matter</li>
+       <li>Magnetic properties of matter</li>
+       <li>Superconductivity</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Heat and Thermodynamics</h3>
+      <p class="meta">PHY303 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Distribution of velocities and molecular collisions</li>
+       <li>Real gases</li>
+       <li>Principles of thermodynamics</li>
+       <li>Entropy</li>
+       <li>Thermodynamic potentials and relations</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Electromagnetic Theory</h3>
+      <p class="meta">PHY304 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Maxwell's equations</li>
+       <li>EM wave propagation in unbounded media</li>
+       <li>EM waves in bounded media</li>
+       <li>Polarization of EM waves</li>
+       <li>Rotary polarization</li>
+       <li>Optical fibres</li>
+      </ul>
+     </article>
+    </div>
+   </details>
+
+   <details class="sem">
+    <summary>Semester 6</summary>
+    <div class="courses">
+     <article class="course">
+      <h3>Nuclear and Particle Physics</h3>
+      <p class="meta">PHY351 &middot; Theory 4 credits</p>
+      <ul>
+       <li>Basic properties of nuclei</li>
+       <li>Radioactivity and radioactive laws</li>
+       <li>Nuclear instrumentation</li>
+       <li>Fission and fusion</li>
+       <li>Elementary particles</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Digital Electronics</h3>
+      <p class="meta">PHY352 &middot; Theory 3 credits + Practical 1 credit</p>
+      <ul>
+       <li>Integrated circuits</li>
+       <li>Digital circuits</li>
+       <li>Boolean algebra</li>
+       <li>Arithmetic circuits</li>
+       <li>Timers: IC 555</li>
+       <li>Sequential circuits</li>
+       <li>Shift registers</li>
+       <li>Computer organization</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Astronomy and Astrophysics</h3>
+      <p class="meta">PHY353 &middot; Theory 4 credits</p>
+      <ul>
+       <li>Fundamentals of astronomy</li>
+       <li>Astronomical techniques</li>
+       <li>Stellar astrophysics</li>
+       <li>The solar system</li>
+       <li>Galaxies and cosmology</li>
+      </ul>
+     </article>
+     <article class="course">
+      <h3>Statistical Mechanics</h3>
+      <p class="meta">PHY354 &middot; Theory 4 credits</p>
+      <ul>
+       <li>Classical statistics</li>
+       <li>Classical and quantum theory of radiation</li>
+       <li>Bose-Einstein statistics</li>
+       <li>Fermi-Dirac statistics</li>
+      </ul>
+     </article>
+    </div>
+   </details>
+  </div>
+
+  <div class="syllabus-info">
+   <div class="info-card">
+    <h4>Credit System (FYUGP)</h4>
+    <p>Each semester features a balanced combination of theory core papers and laboratory practical credits as prescribed by Gauhati University.</p>
+   </div>
+   <div class="info-card">
+    <h4>Continuous Internal Evaluation</h4>
+    <p>Theory courses include sessional exams, home assignments, and seminars; practical courses include regular lab journals and viva voce.</p>
+   </div>
+   <div class="info-card">
+    <h4>Curriculum Document</h4>
+    <p>Students can download the official university syllabus PDF for course outcomes and recommended textbooks.</p>
+   </div>
+  </div>
+
+  <div style="margin-top:32px;display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+   <a class="btn a" href="Physics_Syllabus.pdf" download>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    Download full syllabus (PDF)
+   </a>
+   <a class="btn o" href="index.html#contact" style="background:#fff">Contact academic advisor</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="w">
+  <span>&copy; <span id="yr">2026</span> Department of Physics, ADP College, Nagaon</span>
+  <span>Affiliated to Gauhati University</span>
+ </div>
+</footer>
+
+<script>
+const b=document.querySelector('.burger'),n=document.getElementById('site-nav');
+b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false')}));
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
+
+
+<!-- সুৰৰ অনুৰণন | ADP College Physics Annual Magazine 2026 -->
+<!DOCTYPE html>
+<html lang="as">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>সুৰৰ অনুৰণন | ADP College Physics Annual Magazine 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1b1734;
+  --paper:#fcf6ea;
+  --paper-soft:#f5ecda;
+  --card:#fffcf5;
+  --saffron:#e68a1d;
+  --saffron-glow:#f7b750;
+  --red:#c23923;
+  --red-deep:#911f12;
+  --indigo:#201e52;
+  --indigo-dark:#141238;
+  --line:#dfcca2;
+  --line-strong:#cbaf79;
+  --accent-teal:#0e7490;
+  --gold-tint:#fdf3dc;
+  --shadow-sm:0 4px 12px rgba(27,23,52,0.06);
+  --shadow-md:0 10px 25px rgba(27,23,52,0.09);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:74px}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font:17px/1.85 "Noto Serif Bengali",Georgia,serif;
+  letter-spacing:0.01em;
+}
+a{color:var(--red);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Header & Hero */
+.hero{
+  background:linear-gradient(145deg, var(--indigo-dark) 0%, var(--indigo) 45%, #3d2b68 75%, var(--red-deep) 100%);
+  color:#fff;
+  text-align:center;
+  padding:64px 20px 72px;
+  position:relative;
+  overflow:hidden;
+  border-bottom:5px solid var(--saffron);
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at 50% 30%, rgba(247,183,80,0.18), transparent 65%);
+  pointer-events:none;
+}
+.hero-badges{
+  display:inline-flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin-bottom:20px;
+}
+.badge{
+  font:600 13px/1.4 "Noto Sans Bengali",sans-serif;
+  letter-spacing:0.04em;
+  background:rgba(255,255,255,0.12);
+  backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,0.25);
+  color:#fef3c7;
+  padding:5px 14px;
+  border-radius:20px;
+  text-transform:uppercase;
+}
+.hero h1{
+  font:700 clamp(42px,8vw,80px)/1.2 "Noto Serif Bengali",serif;
+  margin:10px 0 6px;
+  color:#fff;
+  text-shadow:0 3px 18px rgba(0,0,0,0.45);
+}
+.hero h2{
+  font:700 clamp(22px,4.5vw,36px)/1.35 "Noto Serif Bengali",serif;
+  margin:0 auto 18px;
+  color:var(--saffron-glow);
+  max-width:700px;
+}
+.hero p.tagline{
+  font:italic 600 clamp(16px,2.5vw,21px)/1.5 "Fraunces",Georgia,serif;
+  color:#fbe4be;
+  margin:20px auto 0;
+  max-width:680px;
+}
+
+/* Nav */
+nav{
+  position:sticky;
+  top:0;
+  background:rgba(252,246,234,0.96);
+  backdrop-filter:blur(10px);
+  border-bottom:2px solid var(--line);
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  padding:12px 20px;
+  z-index:40;
+  box-shadow:var(--shadow-sm);
+  justify-content:center;
+}
+@media(max-width:820px){
+  nav{justify-content:flex-start}
+}
+nav a{
+  white-space:nowrap;
+  text-decoration:none;
+  color:var(--ink);
+  font:600 15px "Noto Sans Bengali",sans-serif;
+  padding:7px 16px;
+  border-radius:24px;
+  border:1px solid transparent;
+  transition:all .2s ease;
+}
+nav a:hover,nav a:focus-visible{
+  background:var(--saffron);
+  color:#fff;
+  outline:none;
+  text-decoration:none;
+  box-shadow:0 3px 10px rgba(230,138,29,0.3);
+}
+
+/* Container */
+main{
+  max-width:880px;
+  margin:0 auto;
+  padding:0 22px 80px;
+}
+section{
+  padding-top:60px;
+}
+
+/* Headers & Accents */
+.sec-title-wrap{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-bottom:26px;
+}
+h3.sec{
+  font:700 clamp(28px,4.5vw,36px)/1.3 "Noto Serif Bengali",serif;
+  color:var(--indigo);
+  margin:0;
+  position:relative;
+  white-space:nowrap;
+}
+.sec-bar{
+  flex-grow:1;
+  height:3px;
+  background:linear-gradient(to right, var(--saffron), transparent);
+  border-radius:2px;
+}
+h4{
+  font:700 23px/1.4 "Noto Serif Bengali",serif;
+  margin:32px 0 10px;
+  color:var(--indigo);
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+h4::before{
+  content:"";
+  display:inline-block;
+  width:6px;
+  height:20px;
+  background:var(--saffron);
+  border-radius:3px;
+}
+
+/* Content typography */
+p{
+  margin-bottom:18px;
+  color:#2b2649;
+  text-align:justify;
+}
+
+/* Card styles */
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:22px 26px;
+  margin:20px 0 26px;
+  box-shadow:var(--shadow-sm);
+  position:relative;
+}
+.card.en{
+  font-family:"Fraunces",Georgia,serif;
+  font-size:16.5px;
+  line-height:1.8;
+  color:#26233d;
+  background:#fffdfa;
+  border-left:4px solid var(--saffron);
+}
+.card.en strong{
+  color:var(--indigo);
+}
+
+/* Figures & Images */
+figure{
+  margin:26px 0;
+  text-align:center;
+  border-radius:14px;
+  overflow:hidden;
+  border:1px solid var(--line-strong);
+  background:var(--paper-soft);
+  box-shadow:var(--shadow-md);
+}
+figure img{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:0 auto;
+}
+figcaption{
+  font:500 14px/1.5 "Noto Sans Bengali",sans-serif;
+  color:#635941;
+  background:var(--gold-tint);
+  padding:10px 16px;
+  border-top:1px solid var(--line);
+}
+
+.sign{
+  text-align:right;
+  font-weight:700;
+  margin:24px 0 16px;
+  color:var(--red-deep);
+  font-size:18px;
+}
+
+/* Specific elements */
+.poem-card{
+  background:linear-gradient(135deg, #fffaf0, #fcf3e0);
+  border:2px dashed var(--line-strong);
+  border-radius:18px;
+  padding:36px 28px;
+  margin:28px 0;
+  text-align:center;
+  box-shadow:var(--shadow-sm);
+}
+.poem{
+  font-family:"Noto Serif Bengali",serif;
+  font-size:18px;
+  line-height:2.2;
+  white-space:pre-line;
+  color:var(--indigo);
+  font-weight:600;
+}
+
+/* Credits grid */
+.credits{
+  list-style:none;
+  padding:0;
+  margin:20px 0;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+  gap:14px;
+}
+.credits li{
+  background:var(--card);
+  border:1px solid var(--line);
+  padding:14px 18px;
+  border-radius:10px;
+  font-family:"Noto Sans Bengali",sans-serif;
+  font-size:15px;
+  box-shadow:var(--shadow-sm);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.credits b{
+  color:var(--red-deep);
+  font-weight:700;
+}
+.credits span{
+  color:var(--indigo);
+  font-weight:600;
+}
+
+/* Scientific & Instrument badges */
+.instrument-card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:20px 24px;
+  margin:18px 0 24px;
+  box-shadow:var(--shadow-sm);
+}
+.instrument-card h4{
+  margin-top:0;
+}
+
+/* Footer */
+footer{
+  background:var(--indigo-dark);
+  color:#f4eedb;
+  text-align:center;
+  padding:42px 20px 48px;
+  border-top:4px solid var(--saffron);
+}
+footer p{
+  text-align:center;
+  margin-bottom:8px;
+  color:#d7ceb9;
+  font-family:"Noto Sans Bengali",sans-serif;
+  font-size:15px;
+}
+footer a{
+  color:var(--saffron-glow);
+  font-weight:700;
+  text-decoration:underline;
+}
+
+@media(max-width:640px){
+  main{padding:0 16px 50px}
+  .card{padding:18px 18px}
+  .hero{padding:48px 14px 54px}
+  .poem-card{padding:24px 16px}
+  .poem{font-size:16px;line-height:2}
+}
+</style>
+</head>
+<body>
+
+<header class="hero" id="top">
+  <div class="hero-badges">
+    <span class="badge">ADP College Nagaon</span>
+    <span class="badge">Department of Physics</span>
+    <span class="badge">Annual Wall Magazine 2026</span>
+  </div>
+  <h1>সুৰৰ অনুৰণন</h1>
+  <h2>প্ৰকৃতিৰ পৰা বিজ্ঞানলৈ</h2>
+  <p class="tagline">Exploring the Universe, One Equation at a Time &middot; Resonance from Nature to Physics</p>
+</header>
+
+<nav aria-label="Magazine sections">
+  <a href="#editorial">সম্পাদকীয়</a>
+  <a href="#origin">উৎপত্তি</a>
+  <a href="#science">বৈজ্ঞানিক</a>
+  <a href="#nature">প্ৰকৃতি</a>
+  <a href="#instruments">বাদ্যযন্ত্ৰ</a>
+  <a href="#poem">সুৰৰ মায়া</a>
+  <a href="#credits">Credits</a>
+  <a href="index.html" style="background:var(--indigo);color:#fff">&larr; Department Home</a>
+</nav>
+
+<main>
+
+<section id="editorial">
+  <div class="sec-title-wrap">
+    <h3 class="sec">সম্পাদকীয়</h3>
+    <div class="sec-bar"></div>
+  </div>
+  <p>সুৰৰ কোনো নিৰ্দিষ্ট ৰূপ নাই, তথাপিও সি সকলোতে আছে। কেতিয়াবা বৰষুণৰ টোপালত, কেতিয়াবা চৰাইৰ মাতত, কেতিয়াবা পাতৰ মাজেৰে বৈ যোৱা বতাহত, কেতিয়াবা নদীৰ সোঁতত — প্ৰকৃতিয়ে নিজৰ ভাষাৰে সুৰৰ সৃষ্টি কৰে। মানুহে সেই সুৰ শুনিছে, অনুভৱ কৰিছে আৰু সময়ৰ সৈতে তাক নিজৰ জীৱন আৰু সংস্কৃতিৰ অংশ কৰি লৈছে।</p>
+  <p>কিন্তু সুৰৰ এই সৌন্দৰ্যৰ আঁৰত কি আছে? কিয় এটা শব্দ কোমল, আনটো গভীৰ? কিয় কোনোবাতো শব্দই মনত আনন্দ জগায়? এই প্ৰশ্নবোৰৰ উত্তৰ বিচাৰি আমি আহি পাওঁ বিজ্ঞানৰ ওচৰত। কম্পনাংক, তৰংগ, আৰু অনুৰণনৰ দৰে বৈজ্ঞানিক ধাৰণাই সুৰৰ আঁৰৰ ৰহস্য উন্মোচন কৰে।</p>
+  <p>আমি, পদাৰ্থ বিজ্ঞান বিভাগৰ ছাত্ৰ-ছাত্ৰী সকলে সুৰ আৰু সুৰৰ বৈজ্ঞানিক দৃষ্টিকোণটোক একেখন কেনভাছত প্ৰতিফলিত কৰাৰ প্ৰয়াস কৰিছো। “সুৰৰ অনুৰণন — প্ৰকৃতিৰ পৰা বিজ্ঞানলৈ” — কেৱল এখন প্ৰাচীৰ পত্ৰিকা নহয়; ই হৈছে সুৰ, সংস্কৃতি, প্ৰকৃতি আৰু বিজ্ঞানক একেডাল সূতাৰে বান্ধি ৰখাৰ এক সৰু প্ৰয়াস মাথোঁ।</p>
+  
+  <p class="sign">সম্পাদিকা<br>প্ৰিয়াংকী মহন্ত</p>
+
+  <figure>
+    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM83prtwGCCMsOv_vpAmEJOCyu59-kHkweMDQN0a-BlwL1r6v4P-vZKA5iZV82M9eFhZj9o0cmGzZ9LDRni676YRMB3aOilrIOb5adZyTEdu9eunki7fOPqPxJKh5QPUC9Wie8YDX7b_1r7Rxc0dVu8NN7plI3pf_AsgbIvxT3ciqkhzxagNomEy00vPzYZobv7mT2WvLzFOptGfK5zljN39BhQc2dZfXvyUWopd_--wfjXDh_SWzQXw" alt="Wall magazine: সুৰৰ অনুৰণন (Surar Anuranon) by Department of Physics, ADP College" loading="lazy">
+    <figcaption>পদাৰ্থ বিজ্ঞান বিভাগৰ বাৰ্ষিক প্ৰাচীৰ পত্ৰিকা: “সুৰৰ অনুৰণন — প্ৰকৃতিৰ পৰা বিজ্ঞানলৈ” (Department Exhibit)</figcaption>
+  </figure>
+</section>
+
+<section id="origin">
+  <div class="sec-title-wrap">
+    <h3 class="sec">উৎপত্তি</h3>
+    <div class="sec-bar"></div>
+  </div>
+  
+  <h4>সংগীতৰ উৎপত্তি</h4>
+  <p>মানৱ ইতিহাসত সংগীতৰ সঠিক উৎপত্তিৰ সময় এতিয়াও নিশ্চিতভাৱে জনা যোৱা নাই। লিখিত ইতিহাসৰ বহু আগতেই মানুহে শব্দ, ছন্দ আৰু স্বৰৰ সৈতে পৰিচিত হৈছিল। প্ৰকৃতিৰ বৰষুণ, নদীৰ কলকলনি, চৰাইৰ মাত আৰু হৃদস্পন্দনৰ দৰে ছন্দময় শব্দই মানুহৰ শ্ৰৱণ অনুভূতিক প্ৰভাৱিত কৰি থাকিব পাৰে।</p>
+  <p>পুৰাতাত্ত্বিক প্ৰমাণ অনুসৰি প্ৰায় ৪০,০০০ বছৰৰ পূৰ্বে ইউৰোপত হাড় আৰু হাতীদাঁতৰ বাঁহীৰ দৰে বাদ্যযন্ত্ৰ ব্যৱহাৰ কৰা হৈছিল। বিজ্ঞানৰ দৃষ্টিৰে সংগীত হৈছে নিয়মিতভাৱে সংগঠিত শব্দ-কম্পনৰ এক ৰূপ। কম্পনাংকই স্বৰৰ উচ্চতা, বিস্তাৰে শব্দৰ তীব্ৰতা আৰু হাৰ্মনিকে শব্দৰ সুৰৰ গুণ নিৰ্ধাৰণ কৰে। সেয়েহে সংগীত হৈছে বিৱৰ্তন, পদাৰ্থ বিজ্ঞান আৰু স্নায়ুবিজ্ঞানৰ এক সুন্দৰ সমন্বয়।</p>
+
+  <h4>সুৰ সংৰক্ষণ</h4>
+  <p>প্ৰতিটো শব্দৰ আঁৰত আছিল এটা কম্পন। কোনো শব্দ কোমল, কোনোবা গভীৰ, আকৌ কোনোবা তীক্ষ্ণ। মানুহে লক্ষ্য কৰিলে যে এই শব্দবোৰৰ এক নিৰ্দিষ্ট বৈজ্ঞানিক গঠন আছে। সেই কৌতূহলেই মানুহক শব্দ ধৰি ৰখাৰ উপায় বিচাৰিবলৈ প্ৰেৰণা দিলে, আৰু যান্ত্ৰিক সংৰক্ষণৰ পৰা বৈদ্যুতিক আৰু ডিজিটেল ৰেকৰ্ডিংলৈ আগবঢ়ালে। এটা ৰেকৰ্ডিংৰ ভিতৰত সেই সময়ৰ কম্পনৰ তথ্য বৈদ্যুতিক বা ডিজিটেল সংকেত হিচাপে সংৰক্ষিত হৈ থাকে, পিছত পুনৰ শব্দ তৰংগত ৰূপান্তৰিত হৈ আমাৰ কাণত উপনীত হয়।</p>
+</section>
+
+<section id="science">
+  <div class="sec-title-wrap">
+    <h3 class="sec">বৈজ্ঞানিক</h3>
+    <div class="sec-bar"></div>
+  </div>
+
+  <h4>GOD'S FREQUENCY (৪৩২ হাৰ্টজ আৰু মানসিক স্থিৰতা)</h4>
+  <div class="card en">
+    <p>Sound is more than what we hear, it is vibration travelling through matter. The 432 Hz tuning is often linked with calmness and meditation, inspiring the poetic name “God’s Frequency.” Scientific studies suggest that meditation can reduce stress and anxiety, improve sleep, and influence physiological markers such as heart rate and blood pressure. Some small studies also report greater relaxation while listening to 432 Hz music, but evidence remains limited. Thus, “God’s Frequency” is symbolic, not a scientifically established divine frequency.</p>
+  </div>
+
+  <h4>Resonance of Sound in Assamese Musical Instruments</h4>
+  <div class="card en">
+    <p>Resonance creates the distinctive sounds of Assamese instruments. In the dhol, a stretched membrane vibrates when struck, while its hollow wooden body amplifies the sound. The khol uses two vibrating membranes, and its body enhances resonance. In the pepa, a vibrating air column determines pitch and tone, while the taal produces sound through vibrating metal plates. These instruments demonstrate stress as their membranes and plates deform under force. Swargam, the musical scale, helps organize these sounds into pleasing melodies. It connects notes, rhythm, and resonance, enriching Assamese traditional music with harmony and expression.</p>
+  </div>
+
+  <h4>From Production to Propagation of Sound</h4>
+  <div class="card en">
+    <p>Sound is produced when a source undergoes mechanical vibration. These vibrations disturb the particles of a surrounding medium, causing them to oscillate about their equilibrium positions. The disturbance transfers energy from one particle to another, forming a sound wave. In air, sound propagates as a longitudinal wave consisting of alternating compressions (high pressure and density) and rarefactions (low pressure and density). The frequency of vibration determines the pitch, amplitude influences loudness and wavelength is related to the speed and frequency of the wave.</p>
+  </div>
+</section>
+
+<section id="nature">
+  <div class="sec-title-wrap">
+    <h3 class="sec">প্ৰকৃতি</h3>
+    <div class="sec-bar"></div>
+  </div>
+
+  <div class="instrument-card">
+    <h4>ঢেঁকীৰ মাত</h4>
+    <p>অসমীয়া গ্ৰাম্যজীৱনৰ এক চিনাকি শব্দ হৈছে ঢেঁকীৰ মাত। ঢেঁকীত ধান খুন্দোতে কাঠৰ ঢেঁকীতো ওপৰলৈ উঠি পুনৰ তললৈ নামি আঘাত কৰে। এই আঘাতৰ ফলত কাঠৰ কম্পন সৃষ্টি হয় আৰু সেই কম্পন বায়ুৰ মাজেৰে শব্দ তৰংগ হিচাপে বিয়পি পৰে।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>তাঁতশালৰ মাত</h4>
+    <p>তাঁতশালত কাপোৰ বোৱাৰ সময়ত মাকু, তাঁতৰ কাঠ আৰু সূতাৰ মাজত হোৱা নিয়মিত গতি আৰু সংঘৰ্ষৰ ফলত এক বিশেষ ছন্দময় শব্দৰ সৃষ্টি হয়। সেই কম্পন বায়ুৰ মাজেৰে শব্দ তৰংগ হিচাপে বিয়পি আমাৰ কাণত তাঁতশালৰ চিনাকি “খট্-খট্” শব্দ হিচাপে ধৰা দিয়ে।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>বৰষুণৰ সুৰ</h4>
+    <p>আকাশৰ বুকুৰ পৰা সৰি অহা প্ৰতিটো বৰষুণৰ টোপাল যেন প্ৰকৃতিৰ একোটা সৰু সুৰ। বৰষুণৰ টোপাল কোনো পৃষ্ঠত খুন্দা খালে সেই পৃষ্ঠত ক্ষণিকৰ কম্পনৰ সৃষ্টি হয়। হাজাৰ হাজাৰ টোপাল একেলগে পৰিলে সেই পৃথক পৃথক শব্দ মিলি এক অনন্য প্ৰাকৃতিক সংগীতৰ সৃষ্টি কৰে।</p>
+  </div>
+</section>
+
+<section id="instruments">
+  <div class="sec-title-wrap">
+    <h3 class="sec">বাদ্যযন্ত্ৰ</h3>
+    <div class="sec-bar"></div>
+  </div>
+
+  <div class="instrument-card">
+    <h4>ঢোল (Dhol)</h4>
+    <p>অসমীয়া লোকসংস্কৃতিৰ এক শক্তিশালী প্ৰতীক হৈছে ঢোল। ঢোলৰ ছালত আঘাত কৰিলে ছালখন কম্পিত হয় আৰু সেই কম্পনে বায়ুত শব্দ তৰংগ সৃষ্টি কৰে। ছালৰ টান, আকাৰ আৰু আঘাতৰ শক্তিয়ে শব্দৰ স্বৰ আৰু তীব্ৰতা সলনি কৰে।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>খোল (Khol)</h4>
+    <p>খোল প্ৰাচীন ভাৰতীয় পৰম্পৰাৰ সৈতে জড়িত এক ঐতিহ্যবাহী বাদ্যযন্ত্ৰ। অসমত মহাপুৰুষ শ্ৰীমন্ত শংকৰদেৱে নৱবৈষ্ণৱ আন্দোলনৰ জৰিয়তে নাম-প্ৰসংগ, বৰগীত আৰু ভাওনাৰ সৈতে খোলৰ ব্যৱহাৰ জনপ্ৰিয় কৰি তোলে।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>দুতাৰা (Dutara)</h4>
+    <p>দুতাৰা অসমৰ লোকসংগীতৰ সৈতে জড়িত এক পৰম্পৰাগত বাদ্যযন্ত্ৰ। তাঁৰত টান দি টানিলে বা বজালে তাঁৰ কম্পিত হয় আৰু সেই কম্পন বায়ুৰ মাজেৰে শব্দ তৰংগ হিচাপে বিয়পি পৰে।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>নাগাৰা (Nagara)</h4>
+    <p>নাগাৰা অসমৰ এক পৰম্পৰাগত বাদ্যযন্ত্ৰ। নাগাৰাৰ ছালত আঘাত কৰিলে কম্পন সৃষ্টি হয়, যিয়ে বায়ুত শব্দ তৰংগ প্ৰেৰণ কৰে।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>বাঁহী (Flute)</h4>
+    <p>বাঁহী অসমৰ এক জনপ্ৰিয় পৰম্পৰাগত বায়ুবাদ্য। ছিদ্ৰ ঢকা-খোলাৰ ফলত বায়ুস্তম্ভৰ দৈৰ্ঘ্য সলনি হয়, যাৰ ফলত বিভিন্ন স্বৰ সৃষ্টি হয়।</p>
+  </div>
+
+  <div class="instrument-card">
+    <h4>গগণা (Gogona)</h4>
+    <p>গগণা অসমৰ বিহু সংস্কৃতিৰ এক পৰম্পৰাগত মুখবাদ্য। বাঁহেৰে নিৰ্মিত এই সৰু বাদ্যযন্ত্ৰটো মুখৰ ওচৰত ধৰি জিভাৰ দৰে পাতল অংশত আঘাত কৰি বজোৱা হয়। মুখগহ্বৰে অনুৰণন কক্ষ হিচাপে কাম কৰে।</p>
+  </div>
+</section>
+
+<section id="poem">
+  <div class="sec-title-wrap">
+    <h3 class="sec">সুৰৰ মায়া</h3>
+    <div class="sec-bar"></div>
+  </div>
+
+  <div class="poem-card">
+    <p class="poem">নীৰৱ ৰাতিৰ জোনাকত, কোনে সিঁচে সুৰৰ মায়া?
+মৌন পৃথিৱীয়ে গোপনে গুণগুণা, প্ৰকৃতিৰ মধুৰ ছায়া।
+বতাহৰ বাঁহীত জাগে সুৰ, নদীৰ ঢৌত গান,
+বৰষুণৰ টোপালে জগায় সুৰৰ প্ৰাণ।
+পখীৰ মাতত পাহাৰ জাগে, কঁপি উঠে বননি,
+সুৰে সুৰে মিলি গায় প্ৰকৃতিৰ মৌন কাহিনী।
+এটি সুৰে আন এটি সুৰক গোপনে চুই যায়,
+এটিৰ মিঠা অনুৰণনত আনটি মিলি যায়।
+প্ৰতিটো কম্পনত লুকাই থাকে জীৱনৰ গান,
+সেই অনুৰণনৰ স্পন্দনত জাগে প্ৰকৃতিৰ প্ৰাণ।</p>
+  </div>
+</section>
+
+<section id="credits">
+  <div class="sec-title-wrap">
+    <h3 class="sec">Credits</h3>
+    <div class="sec-bar"></div>
+  </div>
+
+  <ul class="credits">
+    <li><b>সম্পাদিকা</b> <span>প্ৰিয়াংকী মহন্ত</span></li>
+    <li><b>চিত্ৰাংকন</b> <span>চন্দন, চুম্পী, ভৈৰৱ</span></li>
+    <li><b>মৃৎ শিল্প</b> <span>মেঘ্না, ছাকিল, বিমিসা, অনুষ্কা, জেবা</span></li>
+    <li><b>হস্তাক্ষৰ</b> <span>মৰমী, ৰিহান, ৰনি</span></li>
+    <li><b>অলংকৰণ</b> <span>আমানুল্লাহ, পংকজ, ইমন, গালিৱ</span></li>
+    <li><b>ডিজিটেলীকৰণ</b> <span>ৰকিবোৰ ৰহমান</span></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <p>Anandaram Dhekial Phookan College &middot; Department of Physics &middot; Estd. 1959</p>
+  <p><a href="index.html">&larr; Return to Department Homepage</a></p>
+</footer>
+
+</body>
+</html>
